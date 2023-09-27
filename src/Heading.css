@@ -1,0 +1,19 @@
+.navbar-nav mx-auto{
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+.nav-link{
+    font-family: 'Ubuntu', sans-serif;
+}
+.navbar.bg-primary-subtle {
+    background-color: transparent !important;
+}
+
+.navbar.bg-primary-subtle .navbar-nav .nav-link {
+    color: #000 !important; 
+}
+
+.navbar.bg-primary-subtle .navbar-toggler-icon:focus,
+.navbar.bg-primary-subtle .navbar-toggler-icon:active {
+    background-color: #fff !important; 
+}

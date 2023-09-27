@@ -1,0 +1,27 @@
+.terms-container {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  h2 {
+    color: #555;
+    margin-top: 20px;
+  }
+  
+  p1 {
+    color: #777;
+  }
+  
+  
+  a {
+    color: #007bff;
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 768px) {
+    .terms-container {
+      padding: 10px;
+    }
+  }
+  

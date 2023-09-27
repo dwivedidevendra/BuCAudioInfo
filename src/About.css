@@ -1,0 +1,11 @@
+
+.font-weight{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: justify;
+}
+
+.img-fluid {
+    max-width: 100%; 
+    height: auto; 
+  }
+  

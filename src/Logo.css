@@ -1,0 +1,41 @@
+.section-header h3 {
+    font-size: 36px;
+    color: #283d50;
+    text-align: center;
+    font-weight: 500;
+    position: relative;
+}
+
+.section-header  {
+    text-align: center;
+    margin: auto;
+    font-size: 15px;
+    padding-bottom: 60px;
+    color: #556877;
+    width: 50%;
+}
+@keyframes scroll{
+    0%{
+       transform: translateX(0); 
+    }
+    100%{
+        transform: translateX(calc(-250px *7));
+    }
+}
+.slider{
+    height: 135px;
+    padding: 20px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: auto;
+}
+.slider .slide-track{
+    animation: scroll 40s linear infinite;
+    display: flex;
+    width: calc(250px * 14);
+}
+.slider .slide{
+    height: 100px;
+    width: 250px;
+}

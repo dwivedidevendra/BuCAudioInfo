@@ -1,0 +1,25 @@
+.container1 {
+    background-color: rgb(32, 107, 182); 
+    padding: 70px 20px; 
+    border-radius: 20px; 
+    overflow: hidden; 
+  }
+  
+  .newsletter {
+    text-align: center;
+  }
+  
+  .btn-default {
+    background-color: white; 
+    color: black; 
+  }
+  
+  
+  .btn-default:hover {
+    background-color: lightblue; 
+    color: rgb(8, 2, 2);
+  }
+  .downloadadjust{
+    padding-top: 150px;
+  }
+  
