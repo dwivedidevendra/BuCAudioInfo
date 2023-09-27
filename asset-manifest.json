@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/BuCAudioInfo/static/css/main.44836b4e.css",
+    "main.js": "/BuCAudioInfo/static/js/main.17fe2cf2.js",
+    "static/js/787.b3d79b74.chunk.js": "/BuCAudioInfo/static/js/787.b3d79b74.chunk.js",
+    "static/media/background.jpeg": "/BuCAudioInfo/static/media/background.01c6fa0e4ef4a8266a8f.jpeg",
+    "index.html": "/BuCAudioInfo/index.html",
+    "main.44836b4e.css.map": "/BuCAudioInfo/static/css/main.44836b4e.css.map",
+    "main.17fe2cf2.js.map": "/BuCAudioInfo/static/js/main.17fe2cf2.js.map",
+    "787.b3d79b74.chunk.js.map": "/BuCAudioInfo/static/js/787.b3d79b74.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.44836b4e.css",
+    "static/js/main.17fe2cf2.js"
+  ]
+}
