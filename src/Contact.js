@@ -2,6 +2,11 @@ import React from "react";
 import Heading from "./Heading";
 import Footer from "./Footer";
 import './Contact.css';
+import youtube from './images/youtube.png';
+import facebook from './images/Facebook-logo-blue-circle-large-transparent-png.png';
+import linkdin from './images/linkedin-logo-png-2026.png';
+import instagram from './images/InstagramPNG.png';
+import twitter from './images/twitter-icon-67.png';
 
 
 const Contact = ()=>  {
@@ -70,11 +75,11 @@ const Contact = ()=>  {
     <div class="social-media">
         <h2>Connect with us on social media</h2>
         <div class="social-icons">
-            <a href="https://www.youtube.com/@bucaudio.audiobooks"><img src="youtube.png" alt="YouTube"/></a>
-            <a href="https://www.instagram.com/bucaudio/"><img src="InstagramPNG.png" alt="Instagram"/></a>
-            <a href="https://www.facebook.com/people/Bucaudio/100069410423516/"><img src="Facebook-logo-blue-circle-large-transparent-png.png" alt="Facebook"/></a>
-            <a href="https://www.linkedin.com/company/bucaudio"><img src="linkedin-logo-png-2026.png" alt="LinkedIn"/></a>
-            <a href="https://twitter.com/BuCAudio"><img src="twitter-icon-67.png" alt="Twitter"/></a>
+            <a href="https://www.youtube.com/@bucaudio.audiobooks"><img src={youtube} alt="YouTube"/></a>
+            <a href="https://www.instagram.com/bucaudio/"><img src={instagram} alt="Instagram"/></a>
+            <a href="https://www.facebook.com/people/Bucaudio/100069410423516/"><img src={facebook} alt="Facebook"/></a>
+            <a href="https://www.linkedin.com/company/bucaudio"><img src={linkdin} alt="LinkedIn"/></a>
+            <a href="https://twitter.com/BuCAudio"><img src={twitter} alt="Twitter"/></a>
         </div>
     </div>
 

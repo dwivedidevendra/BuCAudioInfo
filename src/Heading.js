@@ -1,12 +1,13 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import './Heading.css';
+import logo1 from './images/BuC.png';
 
 
 const Heading = ()=> {
     return(
         <nav class="navbar navbar-expand-lg navbar-light p-3 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3">
-        <img src="BuC.png" width="65" height="65" class="d-inline-block align-top" alt="logo"/>
+        <img src = {logo1} width="65" height="65" class="d-inline-block align-top" alt="logo"/>
         <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>

@@ -57,7 +57,7 @@ a{
     position: relative;
 }
 .box6{
-    width: 266px;
+    width: 280px;
     height: 435px;
     background-color: #4885ed;
     display: flex;
@@ -186,5 +186,16 @@ a{
 @media(max-width:612px){
     .box{
         flex-grow: 0.7;
+    }
+}
+@media (min-width: 768px) {
+    .heading {
+        font-size: 1.6rem; /* Adjust the font size as needed */
+    }
+    .box {
+        width: 320px; /* Adjust the width as needed */
+    }
+    .box6 {
+        width: 360px; /* Adjust the width as needed */
     }
 }

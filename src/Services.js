@@ -1,5 +1,9 @@
 import React from "react";
 import './Service.css';
+import service1 from './images/ebook.jpeg';
+import service2 from './images/paper.jpeg';
+import service3 from './images/booktrailer.jpeg';
+import service4 from './images/interview.jpeg';
 
 const Services = ()=> {
     return(
@@ -14,7 +18,7 @@ const Services = ()=> {
         <div class="row">
             <div class="col-md-3 mb-4">
                 <div class="card unique-card-1 d-flex flex-column">
-                    <img src="ebook.jpeg" class="card-img-top" alt="Imag 1"/>
+                    <img src= {service1} class="card-img-top" alt="Imag 1"/>
                     <div class="card-body mt-auto">
                         <h3 class="card-title font-weight">Audio Book</h3>
                         <p class="font-weight ">Recording</p>
@@ -31,7 +35,7 @@ const Services = ()=> {
             </div>
             <div class="col-md-3 mb-4">
                 <div class="card unique-card-2 d-flex flex-column">
-                    <img src="paper.jpeg" class="card-img-top" alt="Imag 2"/>
+                    <img src= {service2} class="card-img-top" alt="Imag 2"/>
                     <div class="card-body">
                         <h3 class="card-title font-weight">Paperback</h3>  
                         
@@ -49,7 +53,7 @@ const Services = ()=> {
             </div>
             <div class="col-md-3 mb-4">
                 <div class="card unique-card-3 h-800px d-flex flex-column">
-                    <img src="booktrailer.jpeg" class="card-img-top" alt="Imag 3"/>
+                    <img src= {service3} class="card-img-top" alt="Imag 3"/>
                     <div class="card-body">
                         <h3 class="card-title font-weight">Book Trailer</h3>
                         <p class="font-weight"> Audio Visual</p>
@@ -60,7 +64,7 @@ const Services = ()=> {
             </div>
             <div class="col-md-3 mb-4">
                 <div class="card unique-card-4 d-flex flex-column">
-                    <img src="interview.jpeg" class="card-img-top" alt="Imag 4"/>
+                    <img src= {service4} class="card-img-top" alt="Imag 4"/>
                     <div class="card-body">
                         <h3 class="card-title font-weight">Author Interview</h3>
                         <p class="font-weight">In Studio Interview</p>

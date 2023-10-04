@@ -1,5 +1,6 @@
 import React from "react";
 import './About.css';
+import buc from './images/BuC.png';
 
 
 const About = ()=> {
@@ -12,7 +13,7 @@ const About = ()=> {
             </h1>
             <div class="row align-items-center">
                 <div class="col-md-6">
-                    <img src="BuC.png" alt="BuC Audio" class="img-fluid"/>
+                    <img src = {buc} alt="BuC Audio" class="img-fluid"/>
                 </div>
                 <div class="col-md-6">
                     <p class="font-weight">

@@ -1,4 +1,5 @@
 import React from  "react";
+import video from './images/Buctrailer.mp4';
 
 
 const Video = ()=> {
@@ -12,7 +13,7 @@ const Video = ()=> {
 </div>
 <div class="video-background-holder">
         <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-            <source src="Buctrailer.mp4" type="video/mp4" />
+            <source src= {video} type="video/mp4" />
         </video>
         <div class="button-container">
             <a href="/" class="btn btn-primary">Get Quote</a>

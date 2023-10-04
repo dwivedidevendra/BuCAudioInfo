@@ -1,5 +1,12 @@
 import React from 'react'
 import './Slide.css';
+import slide1 from './images/slideimg1.jpeg';
+import slide2 from './images/slideimg2.jpeg';
+import slide3 from './images/slideimg3.jpeg';
+import slide4 from './images/slideimg4.jpeg';
+import slide5 from './images/slideimg5.jpeg';
+import slide6 from './images/slideimg6.jpeg';
+import slide7 from './images/slideimg7.jpeg';
 
 const Slide = () => {
   return (
@@ -20,25 +27,25 @@ const Slide = () => {
     <input type="radio" name="slide" id="six" checked/>
     <input type="radio" name="slide" id="seven" checked/>
     <div class="img img-1">
-      <img src="slideimg1.jpeg" alt="pic1"/>
+      <img src={slide1} alt=""/>
     </div>
     <div class="img img-2">
-      <img src="slideimg2.jpeg" alt="pic2"/>
+      <img src={slide2} alt="pic2"/>
     </div>
     <div class="img img-3">
-      <img src="slideimg3.jpeg" alt="pic3"/>
+      <img src={slide3} alt="pic3"/>
     </div>
     <div class="img img-4">
-      <img src="slideimg4.jpeg" alt="pic4"/>
+      <img src={slide4} alt="pic4"/>
     </div>
     <div class="img img-5">
-      <img src="slideimg5.jpeg" alt="pic5"/>
+      <img src={slide5} alt="pic5"/>
     </div>
     <div class="img img-6">
-      <img src="slideimg6.jpeg" alt="pic6"/>
+      <img src={slide6} alt="pic6"/>
     </div>
     <div class="img img-7">
-      <img src="slideimg7.jpeg" alt="pic7"/>
+      <img src={slide7} alt="pic7"/>
     </div>
     <div class="sliders">
       <label for="one" class="one"></label>
